@@ -24,10 +24,10 @@ Exp: git remote add origin https://github.com/sonu-33/PracticeAI.git
 
 To Stage & Commit Your Files
 -----------------------------
-bashgit add .
+git add .
 git commit -m "Initial commit"
 
 
 Push to GitHub
 -----------------
-bashgit push -u origin main
+git push -u origin main

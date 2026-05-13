@@ -16,7 +16,7 @@ print("#"*10)
 print(word_tokenize(paragraph))
 
 """
-from nltk import word_tokenize
+#from nltk import word_tokenize
 
 """
 from nltk.stem import PorterStemmer
@@ -124,7 +124,7 @@ On March 15, 2026, Sarah Mitchell arrived in Chicago for a leadership workshop. 
 
 tokenize_words = word_tokenize(paragraph)
 pos_tag = nltk.pos_tag(tokenize_words)
-#print (pos_tag)
+print (pos_tag)
 
 name_tag = nltk.ne_chunk(pos_tag)
 print (name_tag)
